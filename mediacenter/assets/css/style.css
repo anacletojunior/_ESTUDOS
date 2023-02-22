@@ -1,0 +1,209 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo__img {
+    width: 200px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav li {
+    display: block;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+        
+}
+
+.ativo {
+    background-color: #39aae1;
+    color: white;
+}
+
+nav li:hover {
+    background-color: #39aae1;
+    color: white;
+}
+
+#aut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+    
+          
+        
+}
+
+#user {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 8px;
+   
+}
+
+#pass {
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+#logar {
+    display: flex;
+    width: 108px;
+    justify-content: center;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+#cadastro {
+    display: flex;
+    width: 108px;
+    justify-content: center;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+
+
+
+#banner {
+    display: flex;
+    background-image: url('../images/img1.jpg');
+    height: 670px;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.banner_headline h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 1px 0px gray;
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+    margin-top: 15%;
+    
+    
+    
+}
+
+.banner_headline h2 {
+    font-size: 14px;
+    color: white;
+    text-shadow: 0px 1px 0px gray;
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+    margin-top: 30px;
+}
+
+.banner_options {
+    height: 210px;
+    display: flex;   
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+
+}
+
+.banner1 {
+    background-color: #39aae1;
+}
+
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.container2 {
+display: flex;
+height: 670px;
+background-position: center;
+background-size: cover;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.lista2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+        
+}
+
+#additem {
+   
+    align-items: center;
+    justify-content: center;
+}

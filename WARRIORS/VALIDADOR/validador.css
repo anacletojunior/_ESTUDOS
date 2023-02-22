@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.screen {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.leftside {
+    display: flex;
+    flex: 1;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    
+
+    
+    
+}
+
+.leftside img{
+    width: 50vw;
+    height: auto;
+    
+}
+
+
+.rightside {
+    width: 500px;
+    background-color: #ddd;
+    padding: 70px;
+}
+
+.rightside label{
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+.rightside input {
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 3px;
+    font-size: 14px;
+
+}   
+
+#cadastrar {
+    
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.error {
+    font-size: 13px;
+    color: red;
+}
+
+
+
+

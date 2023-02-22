@@ -1,0 +1,66 @@
+<html>
+<head>
+    <link rel="stylesheet" href="estilo.css" />
+
+    <title>Menu de navegação</title>
+
+    </head>
+<body>
+
+<h1 id="titulo">Seja bem vindo(a)</h1>
+
+<br>
+
+<hr>
+
+<div id="dia">
+    Dia
+</div>
+
+<hr>
+<button onclick="loadposts()">Carregar posts</button>+
+<input type="file" id="arquivo">
+<button onclick="enviar()">enviar</button>
+
+<br>
+
+<div id="demo">
+    Demo
+</div>
+
+
+<hr>
+
+<div>
+   
+    <button onclick="trocar1('BAT1.png')">BATMAN</button>
+    <button onclick="trocar1('DBZ1.png')">DRAGON BALL</button>
+    <br>
+    <br>
+
+    <img class="imagem" src="BAT1.png"/>
+<br>
+
+
+</div>
+
+<div class="scrollbutton" onclick="subirtela()">
+    </div>
+
+<aside>
+    <div id="menu-opener">
+        <img src="menu.png" width="40px" onclick="menuToggle()">
+    </div>
+    <div id="menu-area">
+        <ul>
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+</aside>
+
+
+<script src="script.js"> </script>
+</body>
+</html>

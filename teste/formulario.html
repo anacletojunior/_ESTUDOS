@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pedidos WARRIORS ARCADE </title>
+    <link rel="stylesheet" href="estilo3.css" />
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Warriors Arcade Design</h1>
+        </div>
+    </header>
+    
+    <h2>Pedidos Clientes</h2>
+    <br/>
+    <h2>Área de cadastro</h2>
+         
+    <form action="paginas/tabela.html" method="get"> 
+        <label>
+            Nome completo:</br>
+            <input type="text" name="nome"/>
+        </label>
+        
+        
+       <label>
+           Descrição:<br>
+           <textarea name="descrição"></textarea>
+       </label>
+       
+       <label>
+            Categoria: <br/>
+            <select name="categoria">
+                <option value="1">Categoria 1</option>
+                <option value="1">Categoria 2</option>
+                <option value="1">Categoria 3</option>
+                <option value="1">Categoria 4</option>
+                <option value="1">Categoria 5</option>
+             </select>
+        </label>
+
+       
+       <label>
+            <input type="checkbox" />
+            Eu li e aceito os <a href="paginas/termos.html" target="_blank" class="termoslink">termos de uso. </a>
+        </label>
+
+              
+    </form>
+        
+    <button>Fazer cadatro</button>
+
+    <br/>
+    
+    <fieldset>
+        <legend>01-RYU</legend>
+        <img src="RYU.jpg">
+        <br/>
+        <input type="number" name="quantidade" min="0" max="10"/>
+        <input type="submit" value="Adicionar no carrinho"/>
+    </fieldset>
+
+    <fieldset>
+        <legend>02-STREET1</legend>
+        <img src="STF1.jpg">
+        <br/>
+        <input type="number" name="quantidade" min="0" max="10"/>
+        <input type="submit" value="Adicionar no carrinho"/>
+    </fieldset>
+
+    <fieldset>
+        <legend>03- MORTAL KOMBAT1</legend>
+        <img src="MK1.jpg">
+        <br/>
+        <input type="number" name="quantidade" min="0" max="10"/>
+        <input type="submit" value="Adicionar no carrinho"/>
+    </fieldset>
+
+
+</body>
+<script src="assets/js/script.js"> </script>
+</html>
+

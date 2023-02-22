@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Validador de Formulário</title>
+    <link rel="stylesheet" href="validador.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="screen">
+       
+        <div class="leftside">
+            <img src="fundo.png" alt="" />
+          
+        </div>
+
+        <div class="rightside">
+            <h1>Crie uma conta</h1>
+
+            <form method="POST" action="cadatro.php" class="cadastro">
+                <LABel>
+                    Seu nome: <br>
+                    <input type="text" name="name" data-rules='required'/>
+                </LABel>
+
+                <LABel>
+                    Seu email:<br>
+                    <input type="text" name="emal" data-rules='required'>
+                </LABel>
+
+                <LABel>
+                    Sua senha:<br>
+                    <input type="password" name="password ">
+                </LABel>
+
+                <LABel>
+                    <input id="cadastrar" type="submit" value="Cadastrar" />
+                </LABel>
+                
+                <div>
+                    Já tem uma conta?
+                    <a href=""></a> Faça o seu Login
+                </div>
+
+            </form>
+            
+        </div>
+
+    </div>
+
+
+
+    
+<script type="text/javascript" src="validador.js"></script>
+</body>
+
+
+</html>
